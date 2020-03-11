@@ -14,14 +14,14 @@
 }
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
-   * { width:67%; }
-   * { width:30%; margin-left:3%;}  
+   body, div { width:67%; }
+   dody, div { width:30%; margin-left:3%;}  
 }
 
 /* Media Queries: Tablet Portrait */
 @media screen and (max-width: 768px) {
-    * { width:100%; }
-    * { width:100%; margin:0; border:none; }
+    body, div { width:100%; }
+    body, div { width:100%; margin:0; border:none; }
   
 }@media only screen and (max-width:500px) {
   /* For mobile phones: */
