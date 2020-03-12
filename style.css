@@ -2,18 +2,18 @@
   width: device-width ;
   zoom: 1.0 ;
 }
-@media (min-width: 640px) { body {font-size:1rem; display: block; } } 
-@media (min-width:960px) { body {font-size:1.2rem; display: block; } } 
-@media (min-width:1100px) { body {font-size:1.5rem; display: block; } } 
-@media (min-device-width:600px) {img[data-src-600px] {content: attr(data-src-600px, url); display: block;}}
-@media (min-device-width:800px) {img[data-src-800px] {content: attr(data-src-800px, url);display: block; }}
+@media (min-width: 640px) { body {font-size:1rem;  } } 
+@media (min-width:960px) { body {font-size:1.2rem;  } } 
+@media (min-width:1100px) { body {font-size:1.5rem;  } } 
+@media (min-device-width:600px) {img[data-src-600px] {content: attr(data-src-600px, url); }}
+@media (min-device-width:800px) {img[data-src-800px] {content: attr(data-src-800px, url);}}
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
     #primary { width:67%; padding: 20px;
     display: inline-block; }
     #secondary { width:30%; margin-left:3%; padding: 20px;
     display: inline-block;}
-   .parent { grid-column-gap: 200px; display: block;}
+   .parent { grid-column-gap: 200px; }
    }
 
 /* Media Queries: Tablet Portrait */
@@ -22,14 +22,13 @@
     display: inline-block; }
     #secondary { width:100%; margin:0; border:none; padding: 20px;
     display: inline-block; }
-   .parent { grid-column-gap: 200px; display: block;}
+   .parent { grid-column-gap: 200px; }
   }
   
 }@media only screen and (max-width:500px) {
   /* For mobile phones: */
   body, div {
     width:75%;
-    display: block;
   }
 }
 #headshotImage {
