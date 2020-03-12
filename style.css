@@ -23,6 +23,7 @@
     #secondary { width:30%; margin-left:3%; padding: 20px;
     display: inline-block;}
    .parent { grid-column-gap: 200px; display: block;}
+    body{align-items: center; justify-content: center;}
 }
 
 /* Media Queries: Tablet Portrait */
@@ -32,6 +33,7 @@
     #secondary { width:100%; margin:0; border:none; padding: 20px;
     display: inline-block; }
    .parent { grid-column-gap: 200px; display: block;}
+    body{align-items: center; justify-content: center;}
 }
   
 }@media only screen and (max-width:500px) {
@@ -131,7 +133,9 @@ body {
   color: white;
   background-color: #334352;
   margin: 0px;
-  font-family: 'Noto Sans JP';
+  font-family: 'Noto Sans JP';  
+  align-items: center;
+  justify-content: center;
 }
 
 p {
