@@ -30,7 +30,7 @@
 }@media only screen and (max-width:500px) {
   /* For mobile phones: */
   body, div {
-    width:100%;
+    width:75%;
     display: block; align-items: center; justify-content: center;
   }
 }
@@ -188,6 +188,7 @@ a:visited {
 
 div{
   padding: 20px;
+  width: 50%
 }
 
 .parent {
