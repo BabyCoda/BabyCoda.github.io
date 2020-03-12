@@ -36,7 +36,7 @@
 }
 #headshotImage {
   width: 300px;
-  margin-left: 60%;
+  margin-left: auto%;
   max-width: 100%;
   display: block;
   height: auto;
