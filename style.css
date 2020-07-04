@@ -1,7 +1,47 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@media (min-width: 640px) { body {font-size:1rem; display: block;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
 
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; padding: 20px;
+    display: inline-block; }
+    #secondary { width:30%; margin-left:3%; padding: 20px;
+    display: inline-block;}
+   .parent { grid-column-gap: 200px; display: block;}
+}
+
+/* Media Queries: Tablet Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; padding: 20px;
+    display: inline-block; }
+    #secondary { width:100%; margin:0; border:none; padding: 20px;
+    display: inline-block; }
+   .parent { grid-column-gap: 200px; display: block;}
+}
+  
+}@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  body, div {
+    width:100%;
+  }
+}
 #headshotImage {
   width: 300px;
-  margin-left: 60%;
   max-width: 100%;
   display: block;
   height: auto;
@@ -21,6 +61,7 @@
   flex-basis: 30%;
   background-color: #011526;
   color: white;
+  margin-top: 35px;
 }
 
 #mainWrapper {
@@ -28,7 +69,7 @@
   flex-direction: column;
   width: 50%;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 20px;
 }
 
 #greetingWrapper {
@@ -54,6 +95,7 @@
   background-color: white;
   color: black;
   padding-left: 15px;
+  width: 100%;
 }
 
 #greetingTag {
@@ -156,7 +198,7 @@ img{
   width: auto;
 }
 div{
-  padding: 20px;
+  padding: 20px 2%;
 }
 
 .parent {

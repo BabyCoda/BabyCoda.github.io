@@ -2,12 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
   <style media="screen">
-    .progress{
-      display: inline-block;
-    }
+
 p{
   line-height: 2;
 }
@@ -37,24 +35,30 @@ p{
   font-family: Verdana;
   padding: 4px;
 }
+ #headshotImage{
+    width: 25%;
+    }
+ /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .flex {   
+    flex-direction: column;
+  }
   </style>
   </head>
   <body>
+    <a href='index.html'>Home</a>
     <h1>About</h1>
     <h2>Creative and Passionate</h2>
+     <div id="headShotDiv">
+        <img id="headshotImage" src="HeadShot.jpg"/>
+     </div>
     <p>
-    I'm a self-taught programmer looking to turn my hobby into a career. <br/>"Find a job you enjoy doing, and you will never have to work a day in your life."
+    I'm a self-directed programmer looking to turn my hobby into a career. <br/>"Find a job you enjoy doing, and you will never have to work a day in your life."
     <br/>― Mark Twain
     </p>
+    <blockquote>"No matter where are you in life, inspire and empower the women around you! Success is never reached alone, 
+      and wisdom and wealth are sweeter shared." -Anonymous</blockquote>
     <div class="flex">
-      <div class="html">
-      HTML 80% <br><progress class="progress" min='0' max='100' value='80'></progress>
-      </div>
-      <div class="css">
-      CSS 70% <br>
-      <progress class="progress"min='0' max='100' value='70'></progress>
-      </div>
-      <div class="JS">
-        JavaScript 20%<br><progress class="progress"min='0' max='100' value='20'></progress>
-      </div>
+      <h1>Skills</h1>
+      <p>Javascript/jQuery, OOP, HTML, CSS, SQL, Experience working with responsive frameworks (Bootstrap), Web Design (UX, UI), Familiarity with Photoshop, Node.js, Express.js, APIs, JSON, GIT, MongoDB, Mongoose, React.js, JSX, Writing Basic Queries, Calculating Aggregates, Combining Data from Multiple Tables, Creating Usage Funnels, Analyzing User Churn, Determining Web Traffic Attribution, Sales Experience, Licensed Insurance Producer, QuickBooks, Forklift Certified, Microsoft Word, Microsoft Excel, Independent Contracting, Remote Work, Service Industry, B2B Sales, </p>
     </div>
